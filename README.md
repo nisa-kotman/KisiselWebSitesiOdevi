@@ -1,4 +1,2 @@
-# WebSitesi
-Nisa KOTMAN 
-191502015 
-Kişisel Web Sitesi
+#  WebSitesi
+Nisa KOTMAN / 191502015 / Kişisel Web Sitesi
