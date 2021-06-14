@@ -8,70 +8,173 @@
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
     <style>
-        body {
+             body {
            background-color: white;
           }
           div{
-            border: 1px solid black;
-            margin-top: 200px;
-            margin-bottom: 200px;
-            margin-right: 800px;
-            margin-left: 200px;
-            background-color: white;
+            border: 1px solid #333;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-right: 0px;
+            margin-left: 0px;
+            background-color: rgb(219, 144, 248);
 
             }
             #foto{
                 border-radius: 25px;
                 background: #060705;
                 padding: 20px; 
-                width: 150px;
-                height: 150px;
+                width: 200px;
+                height: 200px;
             }
+            .button {
+  background-color: #333;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+            * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: rgb(219, 144, 248);
+  padding: 20px;
+  text-align: center;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.column.side {
+  background-color: rgb(219, 144, 248);
+  height: 1300px;
+  width: 25%;
+}
+
+.column.middle {
+  height: 1300px;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
     </style>
 </head>
 <body>
-    <div>
-        <p id="foto"> <img src="balik-burcu.jpg" alt = "koç" width="150" height="150"></p>
-        <p>(19 Şubat - 20Mart)</p>
-        <h5>BALIK BURÇ ÖZELLİKLERİ</h5>
-        <p><b>GRUP:</b>Su, dişi, negatif, değişken</p>
-        <p><b>YÖNETİCİ GEZEGEN:</b>Jüpiter, Neptün</p>
-        <p><b>RENK:</b> Deniz Yeşili, mavi, yeşil</p>
-        <p><b>UĞRLU TAŞ:</b>Ay taşı</p>
-        <p><b>ŞANSLI SAYI:</b>3</p>
-        <p><b>ŞANSLI GÜN:</b>Perşembe</p>
-        <p><b>KARŞIT BURÇ:</b>Başak</p>
-        <p><b>ŞEHİRLER:</b>Londra, Panama</p>
-        <p><b>METAL:</b>Platin</p>
-        <p><b>ÇİÇEKLER:</b>İnci çiçeği, beyaz gül, zambak, Papatya</p>
-        <p><b>AĞAÇLAR:</b> Kestane, meşe, dut, dişbudak</p>
-        <h5>KİŞİSEL ÖZELLİKLERİ</h5>
-        <p>Sabır, eli açıklık ve duyarlılık bu burçta doğan kişilerin en önemli nitelikleridir.
-            Büyük bir inandırma yetenekleri vardır. Dürüst, vicdan sahibi, sadık ve uysaldırlar. 
-            Her çevreye kolayca uyabilirler. Genellikle hayal dünyasında yaşarlar. Yaşam görüşleri ciddi fakat gerçekçi değildirler. 
-            Balık burcu, diğer burçlar arasında dış etkenlerden en çok etkilenen kişilerdir. 
-            Düş dünyasında, öylesine mutludur ki, bazen onun aptal olduğunu bile düşünebilirsiniz. 
-            Ama, zannettiğinizden daha akıllı ve kurnazdır. Sinirli yapısını gizli bir sakinlikle örterken,
-            herkesin seçtiği özel bir kişi olmanın hayallerini kurarlar. Yaşam onun için ürkütücü ve korkunçtur.
-            Balık burcu insanını dışarıdan gözlemleyenler; duygusal yapısının bir aşk acısına dayanamayacağını zannederler 
-            ve kötü haberi hemen vermek istemezler. Aslında, kırılgan görüntüsünün altında güçlü bir kişilik yatar.
-            Göz yaşlarını kısa sürede kurutur ve mendillerini bir kenara atarak, yeni bir yaşamın içinde kendini bulur. 
-            Onları teselli edecek o kadar kişi bulunur ki; yeni bir aşk acısı kapısını çalıncaya kadar, hayatını istediği gibi yaşar. 
-            Duygusal kırıklıklar pes etmelerine yetmez ve bir sürü yarım kalmış aşkıyla birlikte bir dolu anlatılacak
-            anılarıyla yaşamını tamamlar.</p>
-            <h5>FİZİKSEL ÖZELLİKLER</h5>
-            <p>Balık etinde olup kol ve bacakları kısadır. 
-                Soluk tenli, açık kahverengi gözlü, uykulu gibi mahmur gözleri vardır. 
-                Kilo almaya meyillidirler. Yaşı ilerlediği zaman alın açılır ve şakaklardan beyazlamaya başlar. 
-                Her şeye çok çabuk ağladıkları için, gözleri hep nemlidir. Balıklar son derece hassas insanlardır. 
-                Kendi dünyalarında yarattıkları fanteziler ve gerçekler arasında sıkışır kalırlar. Zodyak’ın en melankolik burcudur. 
-                Kafalarına taktıkları bir problemleri varsa, çevrelerinden kopuk yaşarlar. Sürekli uykusuzluk çekerler.
-                Sinirleri çok hassas oldukları içinde çok çabuk yıpranırlar. 
-                Alkol ve uyuşturucuya karşı dayanıksız bir yapıları olmasına rağmen, her fırsatta bu tür şeylere sığınabilirler. 
-                Yıllardır yapılan astrolojik araştırmalara göre; intihar vakaların çoğu balık insanlarında rastlanmıştır.
-                Psikologlara en çok giden kişilerin de balık insanları olduğu saptanmıştır. Kış mevsimi balıklar için çok zor geçer. 
-                Soğuk algınlığına çabuk yakalanmaları, tüm mevsimi ellerinde mendil ile geçirmelerine neden olur. 
-                Ayakları çok hassas olduğu için, en küçük bir üşütmede karın ağrısı çekerler ve çok çabuk yatağa düşerler.</p>
+    <div class="header">
+      <h1>BURÇLAR</h1>
+      <h3>Burç Özellikleri</h3>
+      </div>
+      
+      <div class="topnav">
+        <a href="index.html">ANASAYFA</a>
+        
+      </div>
+      
+      <div class="row">
+        <div class="column side">
+          
         </div>
+        
+        <div class="column middle">
+            <p id="foto"> <img src="balik-burcu.jpg" alt = "koç" width="150" height="150"></p>
+            <p>(19 Şubat - 20Mart)</p>
+            <h2 style="color: white; background-color: #333;">BALIK BURÇ ÖZELLİKLERİ</h2>
+            <p><b>GRUP:</b>Su, dişi, negatif, değişken</p>
+            <p><b>YÖNETİCİ GEZEGEN:</b>Jüpiter, Neptün</p>
+            <p><b>RENK:</b> Deniz Yeşili, mavi, yeşil</p>
+            <p><b>UĞRLU TAŞ:</b>Ay taşı</p>
+            <p><b>ŞANSLI SAYI:</b>3</p>
+            <p><b>ŞANSLI GÜN:</b>Perşembe</p>
+            <p><b>KARŞIT BURÇ:</b>Başak</p>
+            <p><b>ŞEHİRLER:</b>Londra, Panama</p>
+            <p><b>METAL:</b>Platin</p>
+            <p><b>ÇİÇEKLER:</b>İnci çiçeği, beyaz gül, zambak, Papatya</p>
+            <p><b>AĞAÇLAR:</b> Kestane, meşe, dut, dişbudak</p>
+            <h5>KİŞİSEL ÖZELLİKLERİ</h5>
+            <p>Sabır, eli açıklık ve duyarlılık bu burçta doğan kişilerin en önemli nitelikleridir.
+                Büyük bir inandırma yetenekleri vardır. Dürüst, vicdan sahibi, sadık ve uysaldırlar. 
+                Her çevreye kolayca uyabilirler. Genellikle hayal dünyasında yaşarlar. Yaşam görüşleri ciddi fakat gerçekçi değildirler. 
+                Balık burcu, diğer burçlar arasında dış etkenlerden en çok etkilenen kişilerdir. 
+                Düş dünyasında, öylesine mutludur ki, bazen onun aptal olduğunu bile düşünebilirsiniz. 
+                Ama, zannettiğinizden daha akıllı ve kurnazdır. Sinirli yapısını gizli bir sakinlikle örterken,
+                herkesin seçtiği özel bir kişi olmanın hayallerini kurarlar. Yaşam onun için ürkütücü ve korkunçtur.
+                Balık burcu insanını dışarıdan gözlemleyenler; duygusal yapısının bir aşk acısına dayanamayacağını zannederler 
+                ve kötü haberi hemen vermek istemezler. Aslında, kırılgan görüntüsünün altında güçlü bir kişilik yatar.
+                Göz yaşlarını kısa sürede kurutur ve mendillerini bir kenara atarak, yeni bir yaşamın içinde kendini bulur. 
+                Onları teselli edecek o kadar kişi bulunur ki; yeni bir aşk acısı kapısını çalıncaya kadar, hayatını istediği gibi yaşar. 
+                Duygusal kırıklıklar pes etmelerine yetmez ve bir sürü yarım kalmış aşkıyla birlikte bir dolu anlatılacak
+                anılarıyla yaşamını tamamlar.</p>
+                <h5>FİZİKSEL ÖZELLİKLER</h5>
+                <p>Balık etinde olup kol ve bacakları kısadır. 
+                    Soluk tenli, açık kahverengi gözlü, uykulu gibi mahmur gözleri vardır. 
+                    Kilo almaya meyillidirler. Yaşı ilerlediği zaman alın açılır ve şakaklardan beyazlamaya başlar. 
+                    Her şeye çok çabuk ağladıkları için, gözleri hep nemlidir. Balıklar son derece hassas insanlardır. 
+                    Kendi dünyalarında yarattıkları fanteziler ve gerçekler arasında sıkışır kalırlar. Zodyak’ın en melankolik burcudur. 
+                    Kafalarına taktıkları bir problemleri varsa, çevrelerinden kopuk yaşarlar. Sürekli uykusuzluk çekerler.
+                    Sinirleri çok hassas oldukları içinde çok çabuk yıpranırlar. 
+                    Alkol ve uyuşturucuya karşı dayanıksız bir yapıları olmasına rağmen, her fırsatta bu tür şeylere sığınabilirler. 
+                    Yıllardır yapılan astrolojik araştırmalara göre; intihar vakaların çoğu balık insanlarında rastlanmıştır.
+                    Psikologlara en çok giden kişilerin de balık insanları olduğu saptanmıştır. Kış mevsimi balıklar için çok zor geçer. 
+                    Soğuk algınlığına çabuk yakalanmaları, tüm mevsimi ellerinde mendil ile geçirmelerine neden olur. 
+                    Ayakları çok hassas olduğu için, en küçük bir üşütmede karın ağrısı çekerler ve çok çabuk yatağa düşerler.</p>
+          </div>
+        
+        <div class="column side">
+            <a href="balik-burcu-kadini.html" class="button">BALIK BURCU KADINI</a>
+            <a href="balik-burcu-erkegi.html" class="button">BALIK BURCU ERKEĞİ</a>
+            <a href="balik-burcu-ask-hayati.html" class="button">BALIK BURCU AŞK HAYATI</a>
+            <a href="balik-burcu-is-hayati.html" class="button">BALIK BURCU İŞ HAYATI</a>
+            <a href="balik-burcu-eglence-hayati.html" class="button">BALIK BURCU EĞLENCE HAYATI</a>
+            <a href="balik-burcu-saglik.html" class="button">BALIK BURCU SAĞLIK</a>
+            <a href="balik-burcu-unluleri.html" class="button">BALIK BURCU ÜNLÜLERİ</a>
+            <a href="balik-burcu-yukseleni.html" class="button">BALIK BURCU YÜKSELENİ</a>
+            <a href="balik-burcu-cocugu.html" class="button">BALIK BURCU ÇOCUĞU</a>
+            <a href="balik-burcu.html" class="button">BALIK BURCU ÖZELLİKLERİ</a>
+            <a href="balik-burcu-sevdikleri.html" class="button">BALIK BURCU SEVDİKLERİ</a>
+            <a href="balik-burcu-diyeti.html" class="button">BALIK BURCU DİYETİ</a>
+      </div>
+      </div>
 </body>
 </html>
